@@ -10,11 +10,11 @@ const Navbar = () => {
             <div className="flex flex-shrink-0 items-center">
                 <img className="mx-2 w-10" src={logo} alt={"logo"}/>
             </div>
-            <div className="m-8 flex items-center justify-center gap-4 text-2xl">
-                <FaLinkedin/>
-                <FaGithub/>
-                <FaTwitter/>
-                <FaInstagram/>
+            <div className="m-8 flex items-center justify-center gap-4 text-2xl cursor-pointer">
+                <a href={"https://www.linkedin.com/"} target={"_blank"}><FaLinkedin/></a>
+                <a href={"https://github.com/"} target={"_blank"}><FaGithub/></a>
+                <a href={"https://x.com/"} target={"_blank"}><FaTwitter/></a>
+                <a href={"https://www.instagram.com/"} target={"_blank"}><FaInstagram/></a>
             </div>
         </nav>
     )
