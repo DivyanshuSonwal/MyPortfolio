@@ -50,6 +50,7 @@ export const PROJECTS = [
     description:
       "A fully functional e-commerce website with features like product listing, shopping cart, and user authentication.",
     technologies: ["HTML", "CSS", "React", "Node.js", "MongoDB"],
+    link: '/e-commerce,'
   },
   {
     id: 2,
@@ -58,6 +59,7 @@ export const PROJECTS = [
     description:
       "An application for managing tasks and projects, with features such as task creation, assignment, and progress tracking.",
     technologies: ["HTML", "CSS", "Angular", "Firebase"],
+    link: '/task-management',
   },
   {
     id: 3,
@@ -66,6 +68,7 @@ export const PROJECTS = [
     description:
       "A personal portfolio website showcasing projects, skills, and contact information.",
     technologies: ["HTML", "CSS", "React", "Bootstrap"],
+    link: '/portfolio',
   },
   {
     id: 4,
@@ -74,6 +77,7 @@ export const PROJECTS = [
     description:
       "A platform for creating and publishing blog posts, with features like rich text editing, commenting, and user profiles.",
     technologies: ["HTML", "CSS", "Vue.js", "Express", "mySQL"],
+    link: '/blog',
   },
 ];
 
