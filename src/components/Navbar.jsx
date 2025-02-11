@@ -11,10 +11,10 @@ const Navbar = () => {
                 <img className="mx-2 w-10" src={logo} alt={"logo"}/>
             </div>
             <div className="m-8 flex items-center justify-center gap-4 text-2xl cursor-pointer">
-                <a href={"https://www.linkedin.com/"} target={"_blank"}><FaLinkedin/></a>
-                <a href={"https://github.com/"} target={"_blank"}><FaGithub/></a>
-                <a href={"https://x.com/"} target={"_blank"}><FaTwitter/></a>
-                <a href={"https://www.instagram.com/"} target={"_blank"}><FaInstagram/></a>
+                <a href={"https://www.linkedin.com/"} ><FaLinkedin/></a>
+                <a href={"https://github.com/"} ><FaGithub/></a>
+                <a href={"https://x.com/"} ><FaTwitter/></a>
+                <a href={"https://www.instagram.com/"} ><FaInstagram/></a>
             </div>
         </nav>
     )
