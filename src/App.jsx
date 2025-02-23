@@ -5,6 +5,8 @@ import Technologies from "./components/Technologies.jsx";
 import Experience from "./components/Experience.jsx";
 import Projects from "./components/Projects.jsx";
 import Contact from "./components/Contact.jsx";
+import YouTube from "react-youtube";
+import Vimeo from '@u-wave/react-vimeo';
 
 const App = () => {
     return (
@@ -21,6 +23,13 @@ const App = () => {
                 <Experience/>
                 <Projects/>
                 <Contact/>
+                <YouTube className="flex justify-center items-center mb-10 rounded" videoId={"NCsnbvv1thc"} />
+                <div className="flex justify-center items-center mb-10 rounded">
+                    <Vimeo
+                        video={347119375}
+                        autoplay
+                    />
+                </div>
             </div>
         </div>
     )
