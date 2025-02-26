@@ -7,9 +7,14 @@ import Projects from "./components/Projects.jsx";
 import Contact from "./components/Contact.jsx";
 import YouTube from "react-youtube";
 import Vimeo from '@u-wave/react-vimeo';
+import LoginForm from "./components/LoginForm.jsx";
+import {useState} from "react";
 
 const App = () => {
+    const [isLoggedIn, setIsLoggedIn] = useState(false);
+
     return (
+            !isLoggedIn ? <LoginForm setIsLoggedIn={setIsLoggedIn}/>:
         <div className="overflow-x-hidden antialiased selection:bg-cyan-300 selection:text-cyan-900 text-neutral-300">
             <div className="fixed top-0 -z-10 w-full h-full">
                 <div
